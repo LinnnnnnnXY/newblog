@@ -1,0 +1,43 @@
+<% if(theme.vendors.jquery_js){ %>
+<%- js(theme.vendors.jquery_js) %>
+<% }else{ %>
+<%- js('lib/jquery/jquery.js')%>
+<% } %>
+
+<% if(theme.fancybox){ %>
+<% if(theme.vendors.fancybox_js){ %>
+<%- js(theme.vendors.fancybox_js) %>
+<% }else{ %>
+<%- js('lib/fancybox/fancybox.js')%>
+<% }} %>
+
+<% if(theme.pjax){ %>
+<% if(theme.vendors.pjax_js){ %>
+<%- js(theme.vendors.pjax_js) %>
+<% }else{ %>
+<%- js('lib/pjax/pjax.js')%>
+<% }} %>
+
+<% if(theme.lazyload){ %>
+<% if(theme.vendors.lazyload_js){ %>
+<%- js(theme.vendors.lazyload_js) %>
+<% }else{ %>
+<%- js('lib/lazyload/lazyload.js')%>
+<% }} %>
+
+<% if(theme.galleries.enable){ %>
+<% if(theme.vendors.justifiedGallery_js){ %>
+<%- js(theme.vendors.justifiedGallery_js) %>
+<% }else{ %>
+<%- js('lib/justifiedGallery/justifiedGallery.js')%>
+<% }} %>
+
+<% if(theme.leancloud.enable){ %>
+<%- partial('_partial/common/visitors') %>
+<% } %>
+
+<%- js(['js/script']) %>
+
+<% if(theme.custom.foot) { %>
+<%- theme.custom.foot  %>
+<% } %>
