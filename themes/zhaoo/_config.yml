@@ -23,8 +23,8 @@ color:
 
 # Donate
 donate:
-  alipay: https://pic.izhaoo.com/alipay.jpg
-  wechat: https://pic.izhaoo.com/wechat.jpg
+  alipay: 
+  wechat: 
 
 # Preview
 preview:
@@ -55,7 +55,7 @@ copyright: <p>Copyright© 2019-2019 | <a target="_blank" href="https://www.izhao
 # 格言
 motto:
   api: # 'http://localhost:3000/api/motto'   # use the hexo-plugin-motto
-  default: 我在开了灯的床头下，想问问自己的心啊。
+  default: 总是说，去旅行，但何处又不是旅行呢？
 
 # 插件
 fancybox: true
